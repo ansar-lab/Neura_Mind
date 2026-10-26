@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+build/
+
+# Local Environment & Secrets
+.env
+.env.local
+.env.*.local
+.env.*
+!.env.example
+
+# Supabase local artifacts
+supabase/.temp/
+
+# IDE, OS, and Agent metadata
+.agents/
+skills-lock.json
+.DS_Store
+Thumbs.db
+*.log
